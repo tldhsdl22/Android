@@ -53,6 +53,7 @@ public class ListAdapter extends ArrayAdapter<MemberVO> {
         // 데이터를 읽어와서 각 뷰에 출력을 위한 셋팅
         MemberVO member = objects.get(position);
 
+
         holder.memberId.setText(member.getId());
         holder.memberName.setText(member.getName());
         holder.memberAge.setText(String.valueOf(member.getAge()));
